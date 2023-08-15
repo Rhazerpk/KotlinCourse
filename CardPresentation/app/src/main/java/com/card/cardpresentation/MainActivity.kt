@@ -61,11 +61,10 @@ fun CardImage(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
             Image(
-                painter = painterResource(id = R.drawable.android_logo),
+                painter = painterResource(id = R.drawable.albert),
                 contentDescription = "Card",
                 modifier = Modifier
-                    .size(150.dp)
-                    .background(DarkNavy)
+                    .size(250.dp)
                     .padding(bottom = 16.dp),
                 contentScale = ContentScale.Fit,
                 alignment = Alignment.TopCenter
@@ -80,7 +79,7 @@ fun CardImage(modifier: Modifier = Modifier) {
 
 
             Text(
-                text = "Full-Stack Developer",
+                text = "Android Developer",
                 fontSize = 20.sp,
                 color = AverageGreen,
                 modifier = Modifier.padding(bottom = 8.dp)
